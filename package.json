@@ -1,0 +1,34 @@
+{
+  "name": "full-emoji-list",
+  "version": "17.0.0",
+  "description": "full emoji list, unicode v17.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eerkan/full-emoji-list.git"
+  },
+  "keywords": [
+    "full",
+    "emoji",
+    "list",
+    "unicode",
+    "v17.0",
+    "unicode",
+    "emoji",
+    "emoji",
+    "list",
+    "emojis",
+    "list",
+    "of",
+    "emoji"
+  ],
+  "author": "Emre Erkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eerkan/full-emoji-list/issues"
+  },
+  "homepage": "https://github.com/eerkan/full-emoji-list#readme"
+}
