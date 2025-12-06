@@ -1,6 +1,6 @@
 {
   "name": "full-emoji-list",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "description": "full emoji list, unicode v17.0",
   "main": "index.js",
   "scripts": {
