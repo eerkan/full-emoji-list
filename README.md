@@ -33,9 +33,9 @@ yarn add full-emoji-list
 ### ✅ Basic Import
 
 ```js
-import emojiList from "full-emoji-list/full-emoji-list.json" with { type: "json" };
+import fullEmojiList from "full-emoji-list";
 
-console.log(emojiList[0]);
+console.log(fullEmojiList[0]);
 
 // Output:
 // {
@@ -54,9 +54,9 @@ console.log(emojiList[0]);
 ### 🔍 Filtering by Group
 
 ```js
-import emojiList from "full-emoji-list/full-emoji-list.json" with { type: "json" };
+import fullEmojiList from "full-emoji-list";
 
-const smileys = emojiList.filter(
+const smileys = fullEmojiList.filter(
   emoji => emoji.Group === "Smileys & Emotion"
 );
 
@@ -90,9 +90,9 @@ console.log(smileys);
 ### 🔎 Searching by Name
 
 ```js
-import emojiList from "full-emoji-list/full-emoji-list.json" with { type: "json" };
+import fullEmojiList from "full-emoji-list";
 
-const results = emojiList.filter(
+const results = fullEmojiList.filter(
   emoji => emoji.Name.toLowerCase().includes("grinning")
 );
 
