@@ -93,7 +93,7 @@ console.log(smileys);
 import fullEmojiList from "full-emoji-list";
 
 const results = fullEmojiList.filter(
-  emoji => emoji.Name.toLowerCase().includes("grinning")
+  emoji => (emoji.Name ?? "").toLowerCase().includes("grinning")
 );
 
 console.log(results);
@@ -111,13 +111,13 @@ console.log(results);
 
 | Field            | Type        | Description |
 |------------------|-------------|-------------|
-| `CodePointsHex`  | `string[]`  | Unicode code points in hexadecimal format |
-| `Status`         | `string`    | Qualification status |
-| `Emoji`          | `string`    | The actual emoji character |
-| `Version`        | `string`    | Unicode Emoji version |
-| `Name`           | `string`    | Official Unicode name |
-| `Group`          | `string`    | High-level emoji category |
-| `SubGroup`       | `string`    | More specific category |
+| `CodePointsHex`  | `string[] \| null`  | Unicode code points in hexadecimal format |
+| `Status`         | `string \| null`    | Qualification status |
+| `Emoji`          | `string \| null`    | The actual emoji character |
+| `Version`        | `string \| null`    | Unicode Emoji version |
+| `Name`           | `string \| null`    | Official Unicode name |
+| `Group`          | `string \| null`    | High-level emoji category |
+| `SubGroup`       | `string \| null`    | More specific category |
 
 ---
 
