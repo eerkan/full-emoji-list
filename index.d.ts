@@ -7,7 +7,7 @@ export interface EmojiData {
     Name: string
     Version: string;
     CodePointsHex: string[];
-    Status: 'fully-qualified' | 'minimally-qualified' | 'unqualified';
+    Status: 'fully-qualified' | 'minimally-qualified' | 'unqualified' | 'component';
     Group?: string
     SubGroup?: string
 }
